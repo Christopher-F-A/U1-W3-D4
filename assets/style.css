@@ -1,17 +1,52 @@
+h1 {
+  text-decoration: solid;
+  text-align: center;
+  color: rgb(17, 51, 40);
+}
+main {
+  text-align: center;
+}
+
 #tombola {
+  background-color: rgb(239, 239, 239);
+  border: 1px solid rgb(91, 122, 100);
+  border-radius: 2rem;
+  padding: 15px;
+  text-align: center;
   display: grid;
+  width: 600px;
   grid-template-columns: repeat(10, auto);
   gap: 10px;
   margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .cell {
-  border: 1px solid rgb(135, 135, 135);
+  color: rgb(167, 167, 167);
+  background-color: rgb(239, 239, 239);
+  border: 1px solid rgb(91, 122, 100);
+  border-radius: 2rem;
   padding: 15px;
   text-align: center;
   font-weight: bold;
 }
 
 .extracted {
-  background-color: rgb(231, 214, 120);
+  color: rgb(17, 51, 40);
+  background-color: rgb(161, 200, 183);
+}
+
+#extractedNumber {
+  font-weight: bold;
+  font-size: 1rem;
+  font-style: oblique;
+  border: 3.5px solid rgb(91, 122, 100);
+  border-radius: 4rem;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1rem;
+  text-align: center;
+  padding: 1.5rem;
 }
